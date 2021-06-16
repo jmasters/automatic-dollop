@@ -1,5 +1,7 @@
 # automatic-dollop
 
+Towards a better ML workflow.
+
 ## Development Requirements
 
 ```bash
