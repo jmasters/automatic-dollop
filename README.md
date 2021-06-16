@@ -13,7 +13,9 @@ pip install black flake8 mypy
 
 # Local Setup
 
+```bash
 conda create --name auto-dollop python=3
 conda install black flake8 mypy
 pip install pre-commit
 pre-commit install
+```
