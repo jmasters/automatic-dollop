@@ -1,6 +1,6 @@
 # automatic-dollop
 
-Towards a better ML workflow.
+Towards a better workflow.
 
 ## Development Helpers
 
@@ -24,3 +24,13 @@ black .
 flake8
 mypy .
 ```
+
+# Contents
+
+* .gitignore
+* .pre-commit-config.yaml: To allow automatic running of `flake8`, `black`, `mypy` with each commit (local)
+* ci.yaml: Enables github to run the `flake8`, `black`, `mypy` checks as a second line of defense (not local)
+* pyproject.toml: configuration for `black` (local)
+* setup.cfg: configuration for `flake8` and `mypy` (local)
+* LICENSE
+* README.md: this file
