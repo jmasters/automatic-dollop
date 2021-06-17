@@ -18,6 +18,13 @@ pip install pre-commit
 pre-commit install
 ```
 
+## Local config
+
+* .gitignore
+* .pre-commit-config.yaml: To allow automatic running of `flake8`, `black`, `mypy` with each commit (local)
+* pyproject.toml: configuration for `black` (local)
+* setup.cfg: configuration for `flake8` and `mypy` (local)
+
 ## Manual Usage
 ```bash
 black .
@@ -25,12 +32,6 @@ flake8
 mypy .
 ```
 
-# Contents
+# Github Config
 
-* .gitignore
-* .pre-commit-config.yaml: To allow automatic running of `flake8`, `black`, `mypy` with each commit (local)
 * ci.yaml: Enables github to run the `flake8`, `black`, `mypy` checks as a second line of defense (not local)
-* pyproject.toml: configuration for `black` (local)
-* setup.cfg: configuration for `flake8` and `mypy` (local)
-* LICENSE
-* README.md: this file
